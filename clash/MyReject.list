@@ -1,0 +1,7 @@
+PROCESS-NAME,QQPlayer.exe
+
+# GitHub proxy
+#DOMAIN-SUFFIX,ghproxy.com
+#DOMAIN-SUFFIX,ghp.ci
+# crxMouse
+DOMAIN-SUFFIX,mousegesturesapi.com
