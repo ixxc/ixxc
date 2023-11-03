@@ -1,0 +1,22 @@
+# Android Services Library
+PROCESS-NAME,com.google.android.ext.services
+# Android System WebView
+PROCESS-NAME,com.google.android.webview
+# Android Accessibility Suite 无障碍套件
+PROCESS-NAME,com.google.android.marvin.talkback
+# Log generator，CatchLog
+PROCESS-NAME,com.bsp.catchlog
+# Chrome 浏览器
+PROCESS-NAME,com.android.chrome
+# ConfigUpdater
+PROCESS-NAME,com.google.android.configupdater
+# Github
+PROCESS-NAME,com.github.android
+# Google Play Store 商店
+PROCESS-NAME,com.android.vending
+# Google Play services 服务
+PROCESS-NAME,com.google.android.gms
+# Google Services Framework 服务框架
+PROCESS-NAME,com.google.android.gsf
+# Print Service Recommendation Service
+PROCESS-NAME,com.google.android.printservice.recommendation
