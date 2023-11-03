@@ -1,0 +1,16 @@
+# Merge Template for clash verge
+# The `Merge` format used to enhance profile
+
+prepend-rules:
+  # 该链接为clash-nyanpasu内置检查更新的请求，为了代理访问到Github
+  # - DOMAIN-SUFFIX,mirror.ghproxy.com,REJECT
+
+prepend-proxies:
+
+prepend-proxy-groups:
+
+append-rules:
+
+append-proxies:
+
+append-proxy-groups:

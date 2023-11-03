@@ -1,0 +1,54 @@
+# Merge Template for clash verge
+# The `Merge` format used to enhance profile
+# 本地配置，类似cfw中的预处理配置
+
+prepend-rules:
+  # 保证连接使用速度最快的节点
+  - DOMAIN-SUFFIX,deepl.com,♻️ 速度优先
+  # 域名关键字匹配
+  - DOMAIN-KEYWORD,tiktok,🛩️ 我的代理
+  # 域名匹配
+  - DOMAIN,psub.xxxx.xxxx,🛩️ 我的代理
+  # 域名后缀匹配
+  - DOMAIN-SUFFIX,oaistatic.com,⚛️ OpenAi
+  - DOMAIN-SUFFIX,chatgpt.com,⚛️ OpenAi
+  - DOMAIN-SUFFIX,teamviewer.com,🛩️ 我的代理
+  # 直连规则
+  - DOMAIN-SUFFIX,gitee.com,DIRECT
+  - DOMAIN-SUFFIX,coding.net,DIRECT
+  # 进程名匹配
+  - PROCESS-NAME,googleearth.exe,🛩️ 我的代理
+  - PROCESS-NAME,有道云笔记.exe,DIRECT
+  - PROCESS-NAME,QQ.exe,DIRECT
+  - PROCESS-NAME,QQGuild.exe,DIRECT
+  - PROCESS-NAME,WeChat.exe,DIRECT
+  - PROCESS-NAME,WeChatAppEx.exe,DIRECT
+  - PROCESS-NAME,WeChatOCR.exe,DIRECT
+  - PROCESS-NAME,WeChatPlayer.exe,DIRECT
+  - PROCESS-NAME,WeChatUtility.exe,DIRECT
+  # 广告拒绝规则
+  - DOMAIN-SUFFIX,googleadservices.com,REJECT
+  - DOMAIN-SUFFIX,googleadsserving.cn,REJECT
+  - DOMAIN-SUFFIX,doubleclick.com,REJECT
+  - DOMAIN-SUFFIX,doubleclick.net,REJECT
+  - DOMAIN-SUFFIX,ads.linkedin.com,REJECT
+  - DOMAIN-SUFFIX,pos.baidu.com,REJECT
+  # 黑名单
+  - DOMAIN-SUFFIX,miav-cse.avlyun.com,REJECT
+  - DOMAIN-SUFFIX,a0.app.xiaomi.com,REJECT
+  - DOMAIN-SUFFIX,miui-fxcse.avlyun.com,REJECT
+  - DOMAIN-SUFFIX,api.installer.xiaomi.com,REJECT
+prepend-proxies:
+  - { name: 直连ss14, type: ss, server: 1.1.1.1, port: 250, cipher: aes-256-gcm, password: 'xxxx', udp: true }
+  - { name: 直连vmess14, type: vmess, server: 1.1.1.1, port: 250, uuid: xxxx, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /xxxx}, udp: true }
+  - { name: 直连vmess19, type: vmess, server: 1.1.1.1, port: 250, uuid: xxxx, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /xxxx}, udp: true }
+prepend-proxy-groups:
+  - { name: '🔗 链式代理', type: relay, proxies: ['直连vmess19', '直连ss14'] }
+  - { name: '⚡ 链式速度', type: relay, proxies: ['♻️ 自动选择', '直连ss14'] }
+  - { name: '♻️ 速度优先', type: select, proxies: ['♻️ 自动选择'] }
+  - { name: '🚀 全部节点', type: select, proxies: ['🔗 链式代理', '⚡ 链式速度'] }
+append-rules:
+
+append-proxies:
+
+append-proxy-groups:

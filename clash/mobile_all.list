@@ -1,0 +1,112 @@
+# Log generator，CatchLog
+PROCESS-NAME,com.bsp.catchlog
+# ############################################################
+# Android Services Library
+PROCESS-NAME,com.google.android.ext.services
+# Android System WebView
+PROCESS-NAME,com.google.android.webview
+# Android Accessibility Suite 无障碍套件
+PROCESS-NAME,com.google.android.marvin.talkback
+# ConfigUpdater
+PROCESS-NAME,com.google.android.configupdater
+# Google Play Store 商店
+PROCESS-NAME,com.android.vending
+# Google Play services 服务
+PROCESS-NAME,com.google.android.gms
+# Google Services Framework 服务框架
+PROCESS-NAME,com.google.android.gsf
+# Print Service Recommendation Service
+PROCESS-NAME,com.google.android.printservice.recommendation
+# Chrome 浏览器
+PROCESS-NAME,com.android.chrome
+# Google Authenticator
+PROCESS-NAME,com.google.android.apps.authenticator2
+# Gmail
+PROCESS-NAME,com.google.android.gm
+# Google Maps
+PROCESS-NAME,com.google.android.apps.maps
+# YouTube
+PROCESS-NAME,com.google.android.youtube
+# Google Earth
+PROCESS-NAME,com.google.earth
+# Google Gemini
+PROCESS-NAME,com.google.android.apps.bard
+# ############################################################
+# Github
+PROCESS-NAME,com.github.android
+# Microsoft Outlook
+PROCESS-NAME,com.microsoft.office.outlook
+# Proton Mail
+PROCESS-NAME,ch.protonmail.android
+# Twitch
+PROCESS-NAME,tv.twitch.android.app
+# SOOP (숲)
+PROCESS-NAME,kr.co.nowcom.mobile.afreeca
+# TikTok
+PROCESS-NAME,com.zhiliaoapp.musically
+# Josh
+PROCESS-NAME,com.eterno.shortvideos
+# Snapchat
+PROCESS-NAME,com.snapchat.android
+# X
+PROCESS-NAME,com.twitter.android
+# Grok
+PROCESS-NAME,ai.x.grok
+# Facebook
+PROCESS-NAME,com.facebook.katana
+# Threads
+PROCESS-NAME,com.instagram.barcelona
+# Messenger
+PROCESS-NAME,com.facebook.orca
+# WhatsApp Messenger
+PROCESS-NAME,com.whatsapp
+# Meta AI
+PROCESS-NAME,com.facebook.stella
+# Reddit
+PROCESS-NAME,com.reddit.frontpage
+# Discord
+PROCESS-NAME,com.discord
+# Telegram
+PROCESS-NAME,org.telegram.messenger
+# Microsoft Copilot
+PROCESS-NAME,com.microsoft.copilot
+# Vskit
+PROCESS-NAME,com.yomobigroup.chat
+# Apple Music
+PROCESS-NAME,com.apple.android.music
+# Speedtest by Ookla
+PROCESS-NAME,org.zwanoo.android.speedtest
+# giffgaff
+PROCESS-NAME,com.giffgaffmobile.controller
+# RedotPay
+PROCESS-NAME,com.redotpay
+# Pinterest
+PROCESS-NAME,com.pinterest
+# WEAR
+PROCESS-NAME,com.starttoday.android.wear
+# Amazon Shopping
+PROCESS-NAME,com.amazon.mShop.android.shopping
+# Claude by Anthropic
+PROCESS-NAME,com.anthropic.claude
+# he.net - Network Tools
+PROCESS-NAME,net.he.networktools
+# UDP Sender / Receiver
+PROCESS-NAME,com.jca.udpsendreceive
+# Termux
+PROCESS-NAME,com.termux
+# ############################################################
+# rednote（小红书）
+PROCESS-NAME,com.xingin.xhs
+# Temu（拼多多）
+PROCESS-NAME,com.einnovation.temu
+# 微博
+PROCESS-NAME,com.sina.weibo
+# 知乎
+PROCESS-NAME,com.zhihu.android
+# bilibili（哔哩哔哩）
+PROCESS-NAME,tv.danmaku.bili
+# ############################################################
+# 抖音
+PROCESS-NAME,com.ss.android.ugc.aweme
+# 快手
+PROCESS-NAME,com.smile.gifmaker

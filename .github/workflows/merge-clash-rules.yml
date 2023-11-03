@@ -1,0 +1,80 @@
+name: merge clash rules
+
+on:
+  schedule:
+    - cron: "0 20 * * 1"
+  workflow_dispatch:
+
+jobs:
+  merge-clash-rules:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repos
+        uses: actions/checkout@v4
+
+      - name: merge files
+        run: |
+          cd clash/rule
+          
+          curl -s -o Anthropic.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Anthropic/Anthropic.list
+          curl -s -o Claude.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude.list
+          curl -s -o Copilot.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list
+          cat Anthropic.list Claude.list Copilot.list > ProxyAI.list
+          rm -f Anthropic.list Claude.list Copilot.list
+          
+          curl -s -o Amazon.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Amazon/Amazon.list
+          curl -s -o Facebook.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook/Facebook.list
+          curl -s -o Instagram.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Instagram/Instagram.list
+          curl -s -o Threads.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Threads/Threads.list
+          curl -s -o Whatsapp.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Whatsapp/Whatsapp.list
+          curl -s -o GitLab.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitLab/GitLab.list
+          curl -s -o Mozilla.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mozilla/Mozilla.list
+          curl -s -o Naver.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Naver/Naver.list
+          curl -s -o Oracle.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Oracle/Oracle.list
+          curl -s -o Protonmail.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Protonmail/Protonmail.list
+          curl -s -o Twitter.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.list
+          curl -s -o KakaoTalk.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KakaoTalk/KakaoTalk.list
+          cat Amazon.list Facebook.list Instagram.list Threads.list Whatsapp.list GitLab.list Mozilla.list Naver.list Oracle.list Protonmail.list Twitter.list KakaoTalk.list > ProxyLite.list
+          rm -f Amazon.list Facebook.list Instagram.list Threads.list Whatsapp.list GitLab.list Mozilla.list Naver.list Oracle.list Protonmail.list Twitter.list KakaoTalk.list
+          
+          curl -s -o DAZN.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DAZN/DAZN.list
+          curl -s -o Deezer.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Deezer/Deezer.list
+          curl -s -o DiscoveryPlus.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DiscoveryPlus/DiscoveryPlus.list
+          curl -s -o Disney.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list
+          curl -s -o EncoreTVB.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EncoreTVB/EncoreTVB.list
+          curl -s -o Fox.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Fox/Fox.list
+          curl -s -o HBO.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list
+          curl -s -o Hulu.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hulu/Hulu.list
+          curl -s -o TikTok.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list
+          curl -s -o Twitch.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitch/Twitch.list
+          curl -s -o ViuTV.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ViuTV/ViuTV.list
+          curl -s -o Snap.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Snap/Snap.list
+          cat DAZN.list Deezer.list DiscoveryPlus.list Disney.list EncoreTVB.list Fox.list HBO.list Hulu.list TikTok.list Twitch.list ViuTV.list Snap.list > ProxyMedia.list
+          rm -f DAZN.list Deezer.list DiscoveryPlus.list Disney.list EncoreTVB.list Fox.list HBO.list Hulu.list TikTok.list Twitch.list ViuTV.list Snap.list
+          
+          curl -s -o ChinaMobile.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMobile/ChinaMobile.list
+          curl -s -o ChinaTelecom.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTelecom/ChinaTelecom.list
+          curl -s -o ChinaUnicom.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaUnicom/ChinaUnicom.list
+          cat ChinaMobile.list ChinaTelecom.list ChinaUnicom.list > China.list
+          rm -f ChinaMobile.list ChinaTelecom.list ChinaUnicom.list
+
+      - name: check for file changes
+        id: check_changes
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit."
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected."
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: commit changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          cd clash/rule
+          git config --local user.email "‭"
+          git config --local user.name "‭"
+          git add .
+          git commit -m "‭"
+          git push
