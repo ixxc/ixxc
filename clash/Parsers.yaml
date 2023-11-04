@@ -1,0 +1,69 @@
+parsers:
+  - url: https://psub.xxxx.xxxx/sub?target=clash&url=
+    yaml:
+      prepend-proxies:
+        #- { name: 直连VPS, type: ss, server: xxxx.xxxx, port: 250, cipher: aes-256-gcm, password: 'xxxx', plugin: v2ray-plugin, plugin-opts: { mode: websocket, tls: true, host: xxxx.xxxx }, udp: true }
+        - { name: 广港IEPL1, type: ss, server: 1.1.1.1, port: 250, cipher: aes-256-gcm, password: 'xxxx', udp: true }
+        - { name: 广港IEPL2, type: ss, server: 1.1.1.1, port: 250, cipher: aes-256-gcm, password: 'xxxx', udp: true }
+        - { name: 直连ss14, type: ss, server: 1.1.1.1, port: 250, cipher: aes-256-gcm, password: 'xxxx', udp: true }
+        - { name: 直连vmess14, type: vmess, server: 1.1.1.1, port: 250, uuid: xxxx, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /xxxx}, udp: true }
+        - { name: 直连vmess19, type: vmess, server: 1.1.1.1, port: 250, uuid: xxxx, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /xxxx}, udp: true }
+      prepend-proxy-groups:
+        - { name: '🔗 链式代理', type: relay }
+        - { name: '⚡ 链式速度', type: relay }
+        - { name: '♻️ 速度优先', type: select, proxies: ['♻️ 自动选择'] }
+        - { name: '🚀 全部节点', type: select, proxies: [] }
+      commands:
+        #- proxy-groups.3.proxies.0+DIRECT
+        - proxy-groups.👩‍🔧 个人规则.proxies.0+🚀 全部节点
+        - proxy-groups.🚀 全部节点.proxies.+[]proxyNames
+        - proxy-groups.🚀 全部节点.proxies.0+🔗 链式代理
+        - proxy-groups.🚀 全部节点.proxies.1+⚡ 链式速度
+        - proxy-groups.🚀 节点选择.proxies.0+🚀 全部节点
+        - proxy-groups.💬 OpenAi.proxies.0+🚀 全部节点
+        - proxy-groups.📹 油管视频.proxies.0+广港IEPL1
+        - proxy-groups.📹 油管视频.proxies.1+广港IEPL2
+        - proxy-groups.🔗 链式代理.proxies.0+直连vmess19
+        - proxy-groups.🔗 链式代理.proxies.1+直连ss14
+        - proxy-groups.⚡ 链式速度.proxies.0+♻️ 自动选择
+        - proxy-groups.⚡ 链式速度.proxies.1+直连ss14
+        #- rules.(-1)-
+        #- rules.(-1)+GEOIP,CN,🎯 全球直连,no-resolve
+        #- rules.(-1)+MATCH,🐟 漏网之鱼
+        #- rules.(-1)-
+      prepend-rules:
+        # 保证连接使用速度最快的节点
+        - DOMAIN-SUFFIX,deepl.com,♻️ 速度优先
+        # 域名关键字匹配
+        - DOMAIN-KEYWORD,tiktok,👩‍🔧 个人规则
+        # 域名匹配
+        - DOMAIN,psub.xxxx.xxxx,👩‍🔧 个人规则
+        # 域名后缀匹配
+        - DOMAIN-SUFFIX,oaistatic.com,💬 OpenAi
+        - DOMAIN-SUFFIX,chatgpt.com,💬 OpenAi
+        - DOMAIN-SUFFIX,teamviewer.com,👩‍🔧 个人规则
+        # 直连规则
+        - DOMAIN-SUFFIX,gitee.com,DIRECT
+        - DOMAIN-SUFFIX,coding.net,DIRECT
+        # 进程名匹配
+        - PROCESS-NAME,googleearth.exe,👩‍🔧 个人规则
+        - PROCESS-NAME,有道云笔记.exe,DIRECT
+        - PROCESS-NAME,QQ.exe,DIRECT
+        - PROCESS-NAME,QQGuild.exe,DIRECT
+        - PROCESS-NAME,WeChat.exe,DIRECT
+        - PROCESS-NAME,WeChatAppEx.exe,DIRECT
+        - PROCESS-NAME,WeChatOCR.exe,DIRECT
+        - PROCESS-NAME,WeChatPlayer.exe,DIRECT
+        - PROCESS-NAME,WeChatUtility.exe,DIRECT
+        # 广告拒绝规则
+        - DOMAIN-SUFFIX,googleadservices.com,REJECT
+        - DOMAIN-SUFFIX,googleadsserving.cn,REJECT
+        - DOMAIN-SUFFIX,doubleclick.com,REJECT
+        - DOMAIN-SUFFIX,doubleclick.net,REJECT
+        - DOMAIN-SUFFIX,ads.linkedin.com,REJECT
+        - DOMAIN-SUFFIX,pos.baidu.com,REJECT
+        # 黑名单
+        - DOMAIN-SUFFIX,miav-cse.avlyun.com,REJECT
+        - DOMAIN-SUFFIX,a0.app.xiaomi.com,REJECT
+        - DOMAIN-SUFFIX,miui-fxcse.avlyun.com,REJECT
+        - DOMAIN-SUFFIX,api.installer.xiaomi.com,REJECT
