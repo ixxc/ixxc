@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,maying.co
 DOMAIN-SUFFIX,daishujiasu.tech
 DOMAIN-SUFFIX,sockboom.tv
 DOMAIN-SUFFIX,sockboom.link
+DOMAIN-SUFFIX,sockboom.id
 DOMAIN-SUFFIX,lantern.io
 DOMAIN-SUFFIX,moriyun.vip
 DOMAIN-SUFFIX,leiting.io
@@ -45,6 +46,8 @@ DOMAIN-SUFFIX,inkisp.com
 DOMAIN-SUFFIX,inkisp.cc
 DOMAIN-SUFFIX,123157.xyz
 DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,cloudflare.dev
 DOMAIN-SUFFIX,cachefly.com
 DOMAIN-SUFFIX,scamalytics.com
 DOMAIN-SUFFIX,ipleak.net
@@ -135,6 +138,7 @@ DOMAIN-SUFFIX,maskfog.com
 DOMAIN-SUFFIX,obsidian.md
 DOMAIN-SUFFIX,emtec.com
 DOMAIN-SUFFIX,photopea.com
+DOMAIN-SUFFIX,teamviewer.com
 # 媒体时事，社区论坛
 DOMAIN-SUFFIX,stripes.com
 DOMAIN-SUFFIX,airuniversity.af.edu
