@@ -37,6 +37,7 @@ DOMAIN-SUFFIX,antss.me
 DOMAIN-SUFFIX,nnr.moe
 DOMAIN-SUFFIX,mtf.lat
 DOMAIN-SUFFIX,dztk.me
+DOMAIN-SUFFIX,nfdns.top
 # 服务器，CDN，IP，域名
 DOMAIN-SUFFIX,wix.com
 DOMAIN-SUFFIX,do.co
@@ -146,7 +147,6 @@ DOMAIN-SUFFIX,theinformation.com
 DOMAIN-SUFFIX,houxu.app
 DOMAIN-SUFFIX,windriver.com
 DOMAIN-SUFFIX,freezhihu.org
-DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,mas.to
 DOMAIN-SUFFIX,2047.one
 DOMAIN-SUFFIX,jike.info
