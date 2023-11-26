@@ -57,6 +57,9 @@ DOMAIN-SUFFIX,do.co
 DOMAIN-SUFFIX,bwh89.net
 DOMAIN-SUFFIX,racknerd.com
 DOMAIN-SUFFIX,colocrossing.com
+DOMAIN-SUFFIX,vmiss.com
+DOMAIN-SUFFIX,bytevirt.com
+DOMAIN-SUFFIX,alphavps.com
 DOMAIN-SUFFIX,inkisp.com
 DOMAIN-SUFFIX,inkisp.cc
 DOMAIN-SUFFIX,123157.xyz
@@ -71,6 +74,7 @@ DOMAIN-SUFFIX,freenom.world
 # 邮箱
 DOMAIN-SUFFIX,guerrillamail.com
 # 科学上网，论坛交流
+DOMAIN-SUFFIX,lowendtalk.com
 DOMAIN-SUFFIX,hostloc.net
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,bulianglin.com
@@ -158,6 +162,7 @@ DOMAIN-SUFFIX,teamviewer.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,mxplayer.in
 DOMAIN-SUFFIX,mxplay.com
+DOMAIN-SUFFIX,danmuji.org
 # 媒体时事，社区论坛
 DOMAIN-SUFFIX,stripes.com
 DOMAIN-SUFFIX,airuniversity.af.edu
