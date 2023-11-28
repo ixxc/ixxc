@@ -12,6 +12,7 @@ parsers:
         - { name: '🔗 链式代理', type: relay }
         - { name: '⚡ 链式速度', type: relay }
         - { name: '♻️ 速度优先', type: select, proxies: ['♻️ 自动选择'] }
+        - { name: '🔮 负载均衡', type: load-balance, url: 'http://www.gstatic.com/generate_204', interval: 300, strategy: round-robin, proxies: ['广港IEPL1', '广港IEPL2'] }
         - { name: '🚀 全部节点', type: select, proxies: [] }
       commands:
         #- proxy-groups.3.proxies.0+DIRECT
@@ -19,6 +20,7 @@ parsers:
         - proxy-groups.🚀 全部节点.proxies.+[]proxyNames
         - proxy-groups.🚀 全部节点.proxies.0+🔗 链式代理
         - proxy-groups.🚀 全部节点.proxies.1+⚡ 链式速度
+        - proxy-groups.🚀 全部节点.proxies.2+🔮 负载均衡
         - proxy-groups.🚀 节点选择.proxies.0+🚀 全部节点
         - proxy-groups.💬 OpenAi.proxies.0+🚀 全部节点
         - proxy-groups.📹 油管视频.proxies.0+广港IEPL1
