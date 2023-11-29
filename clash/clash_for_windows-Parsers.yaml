@@ -1,5 +1,8 @@
 parsers:
-  - url: https://psub.xxxx.xxxx/sub?target=clash&url=
+  # 地址匹配
+  # - url: https://psub.xxxx.xxxx/sub?target=clash&url=
+  # 正则表达式匹配，匹配以ixxc结尾的订阅
+  - reg: 'ixxc$'
     yaml:
       prepend-proxies:
         #- { name: 直连VPS, type: ss, server: xxxx.xxxx, port: 250, cipher: aes-256-gcm, password: 'xxxx', plugin: v2ray-plugin, plugin-opts: { mode: websocket, tls: true, host: xxxx.xxxx }, udp: true }
