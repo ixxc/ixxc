@@ -61,6 +61,7 @@ parsers:
         - PROCESS-NAME,WeChatPlayer.exe,DIRECT
         - PROCESS-NAME,WeChatUtility.exe,DIRECT
         # 广告拒绝规则
+        # 注意：CFW会从这个地址（https://github.com/Fndroid/ads）加载内置广告，不点击Feedback不会主动触发
         - DOMAIN-SUFFIX,googleadservices.com,REJECT
         - DOMAIN-SUFFIX,googleadsserving.cn,REJECT
         - DOMAIN-SUFFIX,doubleclick.com,REJECT
