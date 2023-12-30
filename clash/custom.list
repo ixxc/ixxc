@@ -1,3 +1,17 @@
+# ----------公共规则未收录的地址----------
+# 💬 OpenAi
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,chatgpt.com
+# 📲 电报消息
+DOMAIN-SUFFIX,tg.dev
+# 🎥 奈飞视频
+DOMAIN-SUFFIX,cookielaw.org
+DOMAIN-SUFFIX,onetrust.com
+# 📢 谷歌
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googlesyndication.com
+# ----------公共规则未收录的地址----------
+
 # 机场，VPN
 DOMAIN-SUFFIX,justmysocks.net
 DOMAIN-SUFFIX,bygcloud.com
