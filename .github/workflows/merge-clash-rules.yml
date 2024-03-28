@@ -18,13 +18,14 @@ jobs:
           curl -s -o Amazon.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Amazon/Amazon.list
           curl -s -o Anthropic.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Anthropic/Anthropic.list
           curl -s -o Facebook.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook/Facebook.list
+          curl -s -o GitLab.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitLab/GitLab.list
           curl -s -o Mozilla.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mozilla/Mozilla.list
           curl -s -o Naver.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Naver/Naver.list
           curl -s -o Oracle.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Oracle/Oracle.list
           curl -s -o Protonmail.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Protonmail/Protonmail.list
           curl -s -o Twitter.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.list
-          cat Amazon.list Anthropic.list Facebook.list Mozilla.list Naver.list Oracle.list Protonmail.list Twitter.list > ProxyLite.list
-          rm -f Amazon.list Anthropic.list Facebook.list Mozilla.list Naver.list Oracle.list Protonmail.list Twitter.list
+          cat Amazon.list Anthropic.list Facebook.list GitLab.list Mozilla.list Naver.list Oracle.list Protonmail.list Twitter.list > ProxyLite.list
+          rm -f Amazon.list Anthropic.list Facebook.list GitLab.list Mozilla.list Naver.list Oracle.list Protonmail.list Twitter.list
           
           curl -s -o DAZN.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DAZN/DAZN.list
           curl -s -o Deezer.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Deezer/Deezer.list
