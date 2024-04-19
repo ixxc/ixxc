@@ -258,9 +258,12 @@ DOMAIN-SUFFIX,sjys6.sbs
 DOMAIN-SUFFIX,shuscloud.com
 DOMAIN-SUFFIX,bigchick.xyz
 DOMAIN-SUFFIX,cloudflare.dev
+DOMAIN-SUFFIX,jsdelivr.com
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,discourse-cdn.com
 DOMAIN-SUFFIX,cachefly.com
+DOMAIN-SUFFIX,keycdn.com
+DOMAIN-SUFFIX,gcore.com
 DOMAIN-SUFFIX,scamalytics.com
 DOMAIN-SUFFIX,iphey.com
 DOMAIN-SUFFIX,pixelscan.net
@@ -361,6 +364,7 @@ DOMAIN-SUFFIX,free-gpt.store
 DOMAIN-SUFFIX,caifree.com
 DOMAIN-SUFFIX,oaifree.com
 # --------------------軟件開發--------------------
+DOMAIN-SUFFIX,kernel.org
 DOMAIN-SUFFIX,jquery.com
 DOMAIN-SUFFIX,eclipse.org
 DOMAIN-SUFFIX,eclipse.dev
