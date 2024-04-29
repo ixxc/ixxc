@@ -1,7 +1,7 @@
 # NAME: ChinaMobile
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-03-08 02:13:07
+# UPDATED: 2024-04-29 13:35:13
 # DOMAIN-SUFFIX: 36
 # TOTAL: 36
 DOMAIN-SUFFIX,10086.cn
@@ -43,7 +43,7 @@ DOMAIN-SUFFIX,zdsdp.com
 # NAME: ChinaTelecom
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-25 16:03:49
+# UPDATED: 2024-04-29 13:35:13
 # DOMAIN-SUFFIX: 83
 # TOTAL: 83
 DOMAIN-SUFFIX,01058511989.com
@@ -132,7 +132,7 @@ DOMAIN-SUFFIX,yichuangyun.com.cn
 # NAME: ChinaUnicom
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-25 16:03:49
+# UPDATED: 2024-04-29 13:35:13
 # DOMAIN-SUFFIX: 33
 # IP-CIDR: 1
 # TOTAL: 34
