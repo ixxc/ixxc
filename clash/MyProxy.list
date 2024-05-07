@@ -77,7 +77,6 @@ DOMAIN-SUFFIX,cyanmori.com
 DOMAIN-SUFFIX,cccc.gg
 DOMAIN-SUFFIX,cos.cat
 DOMAIN-SUFFIX,xqc.best
-DOMAIN-SUFFIX,cnqing.link
 DOMAIN-SUFFIX,kogeki.dev
 DOMAIN-SUFFIX,lantern.io
 DOMAIN-SUFFIX,moriyun.vip
@@ -123,7 +122,6 @@ DOMAIN-SUFFIX,miaoyun.link
 DOMAIN-SUFFIX,mtf.lat
 DOMAIN-SUFFIX,dztk.me
 DOMAIN-SUFFIX,bijia.me
-DOMAIN-SUFFIX,qingqiu.buzz
 DOMAIN-SUFFIX,zumo.moe
 DOMAIN-SUFFIX,nfdns.top
 # --------------------服務器，CDN，IP，域名--------------------
@@ -557,4 +555,3 @@ DOMAIN-SUFFIX,docofcard.com
 DOMAIN-SUFFIX,stackedit.io
 DOMAIN-SUFFIX,seeyoufarm.com
 DOMAIN-SUFFIX,buymeacoffee.com
-DOMAIN-SUFFIX,candypath.eu.org
