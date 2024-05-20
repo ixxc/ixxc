@@ -110,7 +110,7 @@ DOMAIN-SUFFIX,xn--7rs001ea8224a.com
 DOMAIN-SUFFIX,vyprvpn.com
 DOMAIN-SUFFIX,letsvpn.world
 DOMAIN-SUFFIX,antss.me
-# --------------------中轉服務--------------------
+# --------------------Relay server--------------------
 DOMAIN-SUFFIX,nnr.moe
 DOMAIN-SUFFIX,nnc.sh
 DOMAIN-SUFFIX,owocloud.net
@@ -129,7 +129,7 @@ DOMAIN-SUFFIX,dztk.me
 DOMAIN-SUFFIX,bijia.me
 DOMAIN-SUFFIX,zumo.moe
 DOMAIN-SUFFIX,nfdns.top
-# --------------------服務器，CDN，IP，域名--------------------
+# --------------------Server，CDN，IP，Domain--------------------
 DOMAIN-SUFFIX,dmit.io
 DOMAIN-SUFFIX,wix.com
 DOMAIN-SUFFIX,do.co
@@ -343,7 +343,7 @@ DOMAIN-SUFFIX,ggff.net
 DOMAIN-SUFFIX,onflashdrive.app
 DOMAIN-SUFFIX,freenom.com
 DOMAIN-SUFFIX,freenom.world
-# --------------------郵箱--------------------
+# --------------------E-mail--------------------
 DOMAIN-SUFFIX,tuta.com
 DOMAIN-SUFFIX,guerrillamail.com
 DOMAIN-SUFFIX,cock.li
