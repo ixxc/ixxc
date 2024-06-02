@@ -1,7 +1,6 @@
 # 注意：公共后端订阅转换会缓存数据，规则文件修改提交后更新订阅可能不会立即生效
 # --------------------公共规则未收录的地址或该规则需要代理--------------------
 # OpenAi
-DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,webpubsub.azure.com
 # GitHub
 DOMAIN-SUFFIX,vscode-unpkg.net
