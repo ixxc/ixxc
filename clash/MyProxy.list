@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,vscode-unpkg.net
 DOMAIN-SUFFIX,vscode-cdn.net
 DOMAIN-SUFFIX,vsassets.io
 # 进程匹配
+PROCESS-NAME,googleearth.exe
 PROCESS-NAME,Discord.exe
 PROCESS-NAME,slack.exe
 
