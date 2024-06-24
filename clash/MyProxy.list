@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,vsassets.io
 PROCESS-NAME,googleearth.exe
 PROCESS-NAME,Discord.exe
 PROCESS-NAME,slack.exe
+#PROCESS-NAME,vlc.exe
 
 # --------------------PROXY--------------------
 DOMAIN-SUFFIX,justmysocks.net
