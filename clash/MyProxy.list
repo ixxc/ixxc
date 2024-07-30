@@ -468,7 +468,7 @@ DOMAIN-SUFFIX,freegpt.one
 DOMAIN-SUFFIX,freegpt.cc
 DOMAIN-SUFFIX,free-gpt.store
 DOMAIN-SUFFIX,caifree.com
-DOMAIN-SUFFIX,oaifree.com
+#DOMAIN-SUFFIX,oaifree.com
 DOMAIN-SUFFIX,oaipro.com
 DOMAIN-SUFFIX,http.rw
 # --------------------軟件開發--------------------
