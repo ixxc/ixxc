@@ -516,6 +516,9 @@ DOMAIN-SUFFIX,ubuntu.com
 DOMAIN-SUFFIX,jrebel.com
 DOMAIN-SUFFIX,mongodb.com
 DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,python.org
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,pythonhosted.org
 DOMAIN-SUFFIX,nodejs.org
 DOMAIN-SUFFIX,jfrog.io
 DOMAIN-SUFFIX,npmjs.com
