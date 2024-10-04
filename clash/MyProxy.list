@@ -144,7 +144,6 @@ DOMAIN-SUFFIX,zumo.moe
 DOMAIN-SUFFIX,nfdns.top
 DOMAIN-SUFFIX,tanainai.de
 DOMAIN-SUFFIX,1stream.icu
-DOMAIN-SUFFIX,n111.link
 DOMAIN-SUFFIX,langji.cc
 DOMAIN-SUFFIX,lingyushuju.top
 DOMAIN-SUFFIX,onet-iepl.com
@@ -497,6 +496,7 @@ DOMAIN-SUFFIX,v1.mk
 DOMAIN-SUFFIX,bianyuan.xyz
 DOMAIN-SUFFIX,bigdata.icu
 DOMAIN-SUFFIX,topvps.info
+DOMAIN-SUFFIX,vpsradar.com
 # --------------------人工智能--------------------
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,poecdn.net
