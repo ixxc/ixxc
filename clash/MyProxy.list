@@ -229,6 +229,9 @@ DOMAIN-SUFFIX,akile.io
 DOMAIN-SUFFIX,ocent.net
 DOMAIN-SUFFIX,aezx.ru
 DOMAIN-SUFFIX,anyfastcloud.com
+DOMAIN-SUFFIX,bero-host.de
+DOMAIN-SUFFIX,chicagovps.net
+DOMAIN-SUFFIX,layer7.net
 DOMAIN-SUFFIX,hostbrr.com
 DOMAIN-SUFFIX,host-c.com
 DOMAIN-SUFFIX,hostus.us
@@ -468,6 +471,7 @@ DOMAIN-SUFFIX,eu.org
 DOMAIN-SUFFIX,cc.ua
 DOMAIN-SUFFIX,us.kg
 DOMAIN-SUFFIX,pp.ua
+DOMAIN-SUFFIX,org.uk
 DOMAIN-SUFFIX,subreg.cz
 DOMAIN-SUFFIX,netim.com
 DOMAIN-SUFFIX,nazhumi.com
@@ -779,6 +783,9 @@ DOMAIN-SUFFIX,web.moe
 DOMAIN-SUFFIX,guagua.info
 DOMAIN-SUFFIX,pansou.vip
 DOMAIN-SUFFIX,pixwox.com
+DOMAIN-SUFFIX,openstreetmap.org
+DOMAIN-SUFFIX,randomuser.me
+DOMAIN-SUFFIX,fuyiran.com
 DOMAIN-SUFFIX,lee.sd
 DOMAIN-SUFFIX,111666.best
 DOMAIN-SUFFIX,000111.best
@@ -901,3 +908,5 @@ DOMAIN-SUFFIX,imgtp.com
 DOMAIN-SUFFIX,tuic.cc
 DOMAIN-SUFFIX,diuu.de
 DOMAIN-SUFFIX,imgs.ovh
+DOMAIN-SUFFIX,py2.org
+DOMAIN-SUFFIX,bmp.ovh
