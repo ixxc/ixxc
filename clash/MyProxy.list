@@ -10,6 +10,8 @@ DOMAIN-SUFFIX,vsassets.io
 PROCESS-NAME,googleearth.exe
 PROCESS-NAME,Discord.exe
 PROCESS-NAME,slack.exe
+PROCESS-NAME,WiseCare365.exe
+PROCESS-NAME,WiseProgramUninstaller.exe
 #PROCESS-NAME,vlc.exe
 
 # --------------------PROXY--------------------
