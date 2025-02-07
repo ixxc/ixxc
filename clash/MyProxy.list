@@ -187,7 +187,7 @@ DOMAIN-SUFFIX,bwhstatus.com
 DOMAIN-SUFFIX,fdcservers.net
 DOMAIN-SUFFIX,fdcservers.io
 DOMAIN-SUFFIX,kommunicate.io
-DOMAIN-SUFFIX,ipify.org
+#DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,racknerd.com
 DOMAIN-SUFFIX,tawk.to
 DOMAIN-SUFFIX,tawk.link
