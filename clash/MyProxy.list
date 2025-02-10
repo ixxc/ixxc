@@ -712,6 +712,7 @@ DOMAIN-SUFFIX,digvps.com
 # --------------------人工智能--------------------
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,poecdn.net
 DOMAIN-SUFFIX,hotoke.ai
 DOMAIN-SUFFIX,mst.ai
