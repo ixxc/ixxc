@@ -6,6 +6,8 @@ DOMAIN-SUFFIX,webpubsub.azure.com
 DOMAIN-SUFFIX,vscode-unpkg.net
 DOMAIN-SUFFIX,vscode-cdn.net
 DOMAIN-SUFFIX,vsassets.io
+# Google
+DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com
 # 进程匹配
 PROCESS-NAME,googleearth.exe
 PROCESS-NAME,Discord.exe
