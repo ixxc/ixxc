@@ -8,6 +8,13 @@ DOMAIN-SUFFIX,vscode-cdn.net
 DOMAIN-SUFFIX,vsassets.io
 # Google
 DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com
+DOMAIN-SUFFIX,android
+DOMAIN-SUFFIX,chrome
+DOMAIN-SUFFIX,goog
+DOMAIN-SUFFIX,google
+DOMAIN-SUFFIX,guge
+DOMAIN-SUFFIX,gmail
+DOMAIN-SUFFIX,nexus
 # 进程匹配
 PROCESS-NAME,googleearth.exe
 PROCESS-NAME,Discord.exe
