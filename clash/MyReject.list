@@ -1,4 +1,5 @@
 PROCESS-NAME,QQPlayer.exe
+PROCESS-NAME,MediaCoder.exe
 
 # GitHub proxy
 #DOMAIN-SUFFIX,ghproxy.com
