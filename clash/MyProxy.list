@@ -1351,6 +1351,7 @@ DOMAIN-SUFFIX,onlinemictest.com
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,mankier.com
 DOMAIN-SUFFIX,httpstatus.io
+DOMAIN-SUFFIX,updown.io
 # --------------------媒體時事，社區論壇--------------------
 DOMAIN-SUFFIX,stripes.com
 DOMAIN-SUFFIX,airuniversity.af.edu
@@ -1744,4 +1745,5 @@ DOMAIN-SUFFIX,ukuu.uk
 DOMAIN-SUFFIX,hackmd.io
 DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,de
+DOMAIN-SUFFIX,nl
 DOMAIN-SUFFIX,xyz
