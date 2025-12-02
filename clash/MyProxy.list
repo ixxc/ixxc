@@ -353,6 +353,8 @@ DOMAIN-SUFFIX,sugarhosts.com
 DOMAIN-SUFFIX,juhost.com
 DOMAIN-SUFFIX,hhost.com
 DOMAIN-SUFFIX,fastmos.com
+DOMAIN-SUFFIX,DOMAIN-SUFFIX,veloxmedia.com
+DOMAIN-SUFFIX,soutarmc.com
 DOMAIN-SUFFIX,momentumx.cloud
 DOMAIN-SUFFIX,wjwlkj.com
 DOMAIN-SUFFIX,tnahosting.net
@@ -427,6 +429,7 @@ DOMAIN-SUFFIX,nexorahost.com
 DOMAIN-SUFFIX,northhost.fr
 DOMAIN-SUFFIX,uzuma.ru
 DOMAIN-SUFFIX,taiwanvps.vip
+DOMAIN-SUFFIX,idc.sarl
 DOMAIN-SUFFIX,voluri.net
 DOMAIN-SUFFIX,wirecat.net
 DOMAIN-SUFFIX,ygld.net
