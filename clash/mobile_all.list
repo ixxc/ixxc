@@ -42,8 +42,10 @@ PROCESS-NAME,ch.protonmail.android
 PROCESS-NAME,tv.twitch.android.app
 # SOOP (숲)
 PROCESS-NAME,kr.co.nowcom.mobile.afreeca
-# TikTok
+# TikTok（国际版抖音）
 PROCESS-NAME,com.zhiliaoapp.musically
+# Kwai（国际版快手）
+PROCESS-NAME,com.kwai.video
 # Josh
 PROCESS-NAME,com.eterno.shortvideos
 # Snapchat
