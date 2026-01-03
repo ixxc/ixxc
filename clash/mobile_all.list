@@ -42,6 +42,10 @@ PROCESS-NAME,ch.protonmail.android
 PROCESS-NAME,tv.twitch.android.app
 # SOOP (숲)
 PROCESS-NAME,kr.co.nowcom.mobile.afreeca
+# KakaoTalk
+PROCESS-NAME,com.kakao.talk
+# LINE
+PROCESS-NAME,jp.naver.line.android
 # TikTok（国际版抖音）
 PROCESS-NAME,com.zhiliaoapp.musically
 # Kwai（国际版快手）
