@@ -1,6 +1,7 @@
+# ############################################################ System App
 # Log generator，CatchLog
 PROCESS-NAME,com.bsp.catchlog
-# ############################################################
+# ############################################################ Google
 # Android Services Library
 PROCESS-NAME,com.google.android.ext.services
 # Android System WebView
@@ -31,33 +32,7 @@ PROCESS-NAME,com.google.android.youtube
 PROCESS-NAME,com.google.earth
 # Google Gemini
 PROCESS-NAME,com.google.android.apps.bard
-# ############################################################
-# Github
-PROCESS-NAME,com.github.android
-# Microsoft Outlook
-PROCESS-NAME,com.microsoft.office.outlook
-# Proton Mail
-PROCESS-NAME,ch.protonmail.android
-# Twitch
-PROCESS-NAME,tv.twitch.android.app
-# SOOP (숲)
-PROCESS-NAME,kr.co.nowcom.mobile.afreeca
-# KakaoTalk
-PROCESS-NAME,com.kakao.talk
-# LINE
-PROCESS-NAME,jp.naver.line.android
-# TikTok（国际版抖音）
-PROCESS-NAME,com.zhiliaoapp.musically
-# Kwai（国际版快手）
-PROCESS-NAME,com.kwai.video
-# Josh
-PROCESS-NAME,com.eterno.shortvideos
-# Snapchat
-PROCESS-NAME,com.snapchat.android
-# X
-PROCESS-NAME,com.twitter.android
-# Grok
-PROCESS-NAME,ai.x.grok
+# ############################################################ Meta
 # Facebook
 PROCESS-NAME,com.facebook.katana
 # Threads
@@ -68,20 +43,33 @@ PROCESS-NAME,com.facebook.orca
 PROCESS-NAME,com.whatsapp
 # Meta AI
 PROCESS-NAME,com.facebook.stella
+# ############################################################ Microsoft
+# Microsoft Outlook
+PROCESS-NAME,com.microsoft.office.outlook
+# Github
+PROCESS-NAME,com.github.android
+# Microsoft Copilot
+PROCESS-NAME,com.microsoft.copilot
+# ############################################################ X
+# X
+PROCESS-NAME,com.twitter.android
+# Grok
+PROCESS-NAME,ai.x.grok
+# ############################################################
+# Proton Mail
+PROCESS-NAME,ch.protonmail.android
+# Twitch
+PROCESS-NAME,tv.twitch.android.app
+# Snapchat
+PROCESS-NAME,com.snapchat.android
 # Reddit
 PROCESS-NAME,com.reddit.frontpage
 # Discord
 PROCESS-NAME,com.discord
 # Telegram
 PROCESS-NAME,org.telegram.messenger
-# Microsoft Copilot
-PROCESS-NAME,com.microsoft.copilot
-# Vskit
-PROCESS-NAME,com.yomobigroup.chat
 # Apple Music
 PROCESS-NAME,com.apple.android.music
-# Speedtest by Ookla
-PROCESS-NAME,org.zwanoo.android.speedtest
 # giffgaff
 PROCESS-NAME,com.giffgaffmobile.controller
 # RedotPay
@@ -94,24 +82,44 @@ PROCESS-NAME,com.starttoday.android.wear
 PROCESS-NAME,com.amazon.mShop.android.shopping
 # Claude by Anthropic
 PROCESS-NAME,com.anthropic.claude
+# ############################################################ Tools
+# Speedtest by Ookla
+PROCESS-NAME,org.zwanoo.android.speedtest
 # he.net - Network Tools
 PROCESS-NAME,net.he.networktools
 # UDP Sender / Receiver
 PROCESS-NAME,com.jca.udpsendreceive
 # Termux
 PROCESS-NAME,com.termux
-# ############################################################
-# rednote（小红书）
-PROCESS-NAME,com.xingin.xhs
+# ############################################################ 日韩应用
+# SOOP (숲)
+PROCESS-NAME,kr.co.nowcom.mobile.afreeca
+# KakaoTalk
+PROCESS-NAME,com.kakao.talk
+# LINE
+PROCESS-NAME,jp.naver.line.android
+# ############################################################ 印度应用
+# Josh
+PROCESS-NAME,com.eterno.shortvideos
+# ############################################################ 海外版
+# TikTok
+PROCESS-NAME,com.zhiliaoapp.musically
+# Kwai（快手）
+PROCESS-NAME,com.kwai.video
 # Temu（拼多多）
 PROCESS-NAME,com.einnovation.temu
+# Vskit（停止运营）
+PROCESS-NAME,com.yomobigroup.chat
+# ############################################################ 国际版
+# rednote（小红书）
+PROCESS-NAME,com.xingin.xhs
 # 微博
 PROCESS-NAME,com.sina.weibo
 # 知乎
 PROCESS-NAME,com.zhihu.android
 # bilibili（哔哩哔哩）
 PROCESS-NAME,tv.danmaku.bili
-# ############################################################
+# ############################################################ 大陆应用
 # 抖音
 PROCESS-NAME,com.ss.android.ugc.aweme
 # 快手
