@@ -430,7 +430,12 @@ DOMAIN-SUFFIX,tsw.io
 DOMAIN-SUFFIX,idc.care
 DOMAIN-SUFFIX,taipei101.llc
 DOMAIN-SUFFIX,oneman.me
+DOMAIN-SUFFIX,tizz.yt
+DOMAIN-SUFFIX,moe.yun
+DOMAIN-SUFFIX,yaonet.cc
+DOMAIN-SUFFIX,ciallo.ee
 DOMAIN-SUFFIX,azcloud.cc
+DOMAIN-SUFFIX,geelinx.com
 DOMAIN-SUFFIX,c9yw.com
 DOMAIN-SUFFIX,digirdp.com
 DOMAIN-SUFFIX,hmbcloud.com
@@ -496,6 +501,7 @@ DOMAIN-SUFFIX,dataonline.vn
 DOMAIN-SUFFIX,hgidc.cn
 DOMAIN-SUFFIX,4wl.cn
 DOMAIN-SUFFIX,monesy.cn
+DOMAIN-SUFFIX,monesy.net
 DOMAIN-SUFFIX,nnyunidc.cn
 DOMAIN-SUFFIX,nnyunidc.com
 DOMAIN-SUFFIX,aethercloud.io
@@ -1363,6 +1369,8 @@ DOMAIN-SUFFIX,oaifree.com
 DOMAIN-SUFFIX,oaipro.com
 DOMAIN-SUFFIX,http.rw
 DOMAIN-SUFFIX,cto.new
+DOMAIN-SUFFIX,gptclub.ai
+DOMAIN-SUFFIX,viloze.com
 # --------------------軟件開發--------------------
 DOMAIN-SUFFIX,kernel.org
 DOMAIN-SUFFIX,jquery.com
@@ -1872,6 +1880,7 @@ DOMAIN-SUFFIX,kejibbs.com
 DOMAIN-SUFFIX,featurebase.app
 DOMAIN-SUFFIX,ukuu.uk
 DOMAIN-SUFFIX,hackmd.io
+DOMAIN-SUFFIX,lilyemby.app
 DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,jp
 DOMAIN-SUFFIX,uk
