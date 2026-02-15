@@ -83,8 +83,6 @@ PROCESS-NAME,com.amazon.mShop.android.shopping
 # Claude by Anthropic
 PROCESS-NAME,com.anthropic.claude
 # ############################################################ Tools
-# Speedtest by Ookla
-PROCESS-NAME,org.zwanoo.android.speedtest
 # he.net - Network Tools
 PROCESS-NAME,net.he.networktools
 # UDP Sender / Receiver
@@ -98,6 +96,8 @@ PROCESS-NAME,kr.co.nowcom.mobile.afreeca
 PROCESS-NAME,com.kakao.talk
 # LINE
 PROCESS-NAME,jp.naver.line.android
+# Weverse
+PROCESS-NAME,co.benx.weverse
 # ############################################################ 印度应用
 # Josh
 PROCESS-NAME,com.eterno.shortvideos
